@@ -2,3 +2,7 @@ node_modules
 cache
 package-lock.json
 yarn.lock
+
+config.json
+
+README.md
