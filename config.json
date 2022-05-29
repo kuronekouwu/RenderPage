@@ -1,0 +1,23 @@
+{
+    "server": {
+        "port": 8001
+    },
+    "puppeteer": {
+        "headless": false,
+        "useragent": "HololiveWikiTHBot / 1.0 (https://hololivewikith.com)",
+        "domain": [
+            "https://hololivewikith.com",
+            "https://hololivewikith.net",
+            "https://api.hololivewikith.com"
+        ],
+        "page": {
+            "waitUntil": "networkidle2",
+            "timeout": 30000,
+            "maxFailures": 3
+        }
+    },
+    "cache": {
+        "path": "./cache",
+        "maxAge": 259200
+    }
+}
