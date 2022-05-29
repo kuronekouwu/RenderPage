@@ -1,14 +1,12 @@
 {
     "server": {
-        "port": 8001
+        "port": 8000
     },
     "puppeteer": {
         "headless": false,
-        "useragent": "HololiveWikiTHBot / 1.0 (https://hololivewikith.com)",
+        "useragent": "EXAMPLEAGENT / 1.0 (https://example.com)",
         "domain": [
-            "https://hololivewikith.com",
-            "https://hololivewikith.net",
-            "https://api.hololivewikith.com"
+            "https://example.com"
         ],
         "page": {
             "waitUntil": "networkidle2",
